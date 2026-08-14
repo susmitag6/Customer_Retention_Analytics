@@ -198,6 +198,9 @@ customer_analytics_dashboard_project/
 |   |-- processed/
 |   `-- model_output/
 |
+|
+|-- notebooks/eda.ipynb
+|
 |-- models/
 |   `-- churn_pipeline.pkl
 |
