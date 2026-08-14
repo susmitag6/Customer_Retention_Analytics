@@ -1,0 +1,10 @@
+streamlit==1.32.0
+numpy==1.26.4
+pandas
+scikit-learn
+matplotlib
+plotly
+joblib
+openpyxl==3.1.5 (python3 -m pip install openpyxl)
+
+
