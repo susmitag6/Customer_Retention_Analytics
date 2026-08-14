@@ -264,19 +264,6 @@ streamlit run dashboard/app.py
 - The New High-Risk segment has particularly high churn.
 - Using CLTV together with churn probability gives a better retention priority than churn probability alone.
 
-## Possible improvements
-
-This is a portfolio project, so there are several ways it could be extended:
-
-- tune Logistic Regression and Random Forest hyperparameters
-- test XGBoost or LightGBM
-- use probability calibration
-- validate segmentation stability
-- add SHAP explanations
-- include retention campaign cost and expected benefit
-- track model performance over time
-- deploy the dashboard online
-- retrain on new customer data
 
 ## Final takeaway
 
