@@ -1,0 +1,17 @@
+customerid,churn_probability,risk_category,cltv,segment_name,contract,tenure_months,monthly_charges
+2371-JQHZZ,0.7866084873871303,High,5886,Established High-Value Customer,Month-to-month,24,93.0
+4021-RQSNY,0.7626844128346829,High,5137,Established High-Value Customer,Month-to-month,29,98.5
+8625-AZYZY,0.7550107805457913,High,4734,Established High-Value Customer,Month-to-month,24,104.65
+5995-SNNEW,0.7542790471615584,High,5883,Established High-Value Customer,Month-to-month,23,104.45
+9647-ERGBE,0.7437368319994794,High,4664,Established High-Value Customer,Month-to-month,30,100.05
+8290-YWKHZ,0.7411226081869383,High,5247,Established High-Value Customer,Month-to-month,32,93.2
+5244-IRFIH,0.7371602306187938,High,4333,Established High-Value Customer,Month-to-month,33,94.5
+3990-QYKBE,0.71943450454107,High,4127,Established High-Value Customer,Month-to-month,37,92.5
+6116-RFVHN,0.7183361127765845,High,3744,Established High-Value Customer,Month-to-month,34,100.45
+0396-YCHWO,0.7158081147296832,High,5111,Established High-Value Customer,Month-to-month,36,95.4
+6851-WEFYX,0.714799827209093,High,3318,Established High-Value Customer,Month-to-month,35,100.8
+6393-WRYZE,0.7142472614325991,High,3979,Established High-Value Customer,Month-to-month,34,97.65
+4735-ASGMA,0.7116303538630286,High,4997,Established High-Value Customer,Month-to-month,26,98.35
+2568-OIADY,0.7059505230029018,High,4233,Established High-Value Customer,Month-to-month,37,99.5
+8118-LSUEL,0.7038007655867944,High,5507,Established High-Value Customer,Month-to-month,23,106.4
+5219-YIPTK,0.7003333399390933,High,3185,Established High-Value Customer,Month-to-month,33,104.4
