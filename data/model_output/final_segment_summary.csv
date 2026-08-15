@@ -1,0 +1,5 @@
+cluster,segment_name,customers,avg_tenure,avg_monthly_charges,avg_total_charges,avg_cltv,churn_rate
+0,Established High-Value,2103,54.93,91.76,5073.44,4887.14,14.55
+1,Low-Spend Stable,1526,30.55,21.08,668.1,4374.38,7.4
+2,New High-Risk,2732,16.19,74.05,1229.68,4060.77,46.85
+3,Mid-Tenure Moderate-Risk,682,31.74,42.03,1500.13,4317.15,24.93
