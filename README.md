@@ -248,7 +248,7 @@ Run the segmentation and analytics scripts as needed, then start the dashboard:
 streamlit run dashboard/app.py
 ```
 <<<<<<< 
-🌐 **Live Demo:** [customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app](https://customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app/)
+🌐 **Live Demo:** [customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app](https://customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app//)
 
 
 ## Main tools
@@ -260,6 +260,7 @@ streamlit run dashboard/app.py
 - Logistic Regression
 - Random Forest
 - K-Means
+- PCA
 - Plotly
 - Streamlit
 - Joblib
