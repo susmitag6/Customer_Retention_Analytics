@@ -247,8 +247,8 @@ Run the segmentation and analytics scripts as needed, then start the dashboard:
 ```bash
 streamlit run dashboard/app.py
 ```
-<<<<<<< Updated upstream
-🌐 **Live Demo:** [customerretentionanalytics-rvln9ttalhqwk8ahmwwebo.streamlit.app/](https://customerretentionanalytics-rvln9ttalhqwk8ahmwwebo.streamlit.app//)
+<<<<<<< 
+🌐 **Live Demo:** [customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app/](//https://customerretentionanalytics-ajwsejzc9lqsatn8sc28jg.streamlit.app//)
 
 ## Main tools
 
