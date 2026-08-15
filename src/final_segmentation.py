@@ -5,7 +5,7 @@ from pathlib import Path
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-
+from sklearn.decomposition import PCA
 
 # --------------------------------------------------
 # 1. Paths
@@ -148,6 +148,34 @@ kmeans = KMeans(
 
 df["cluster"] = kmeans.fit_predict(
     X_scaled
+)
+
+
+# --------------------------------------------------
+# PCA for cluster visualization
+# --------------------------------------------------
+
+pca = PCA(
+    n_components=2
+)
+
+pca_components = pca.fit_transform(
+    X_scaled
+)
+
+df["pca_1"] = pca_components[:, 0]
+df["pca_2"] = pca_components[:, 1]
+
+
+print("\nPCA explained variance:")
+
+print(
+    pca.explained_variance_ratio_
+)
+
+print(
+    "Total explained variance:",
+    pca.explained_variance_ratio_.sum()
 )
 
 

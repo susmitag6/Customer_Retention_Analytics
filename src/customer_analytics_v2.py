@@ -63,8 +63,9 @@ segment_data = segments[
     [
         "customerid",
         "cluster",
-        "segment_name"
-
+        "segment_name",
+        "pca_1",
+        "pca_2"
     ]
 ].copy()
 

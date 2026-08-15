@@ -643,8 +643,46 @@ st.dataframe(
 
 
 # --------------------------------------------------
-# 16. Summary information
+# PCA Customer Segment Visualization
 # --------------------------------------------------
+
+st.divider()
+
+st.subheader("Customer Segment Visualization")
+
+st.caption(
+    "PCA reduces the customer features to two dimensions "
+    "so we can visually compare the customer segments."
+)
+
+
+pca_chart = px.scatter(
+    filtered_df,
+    x="pca_1",
+    y="pca_2",
+    color="segment_name",
+    hover_data=[
+        "customerid",
+        "segment_name",
+        "churn_probability",
+        "cltv",
+        "tenure_months",
+        "monthly_charges"
+    ],
+    labels={
+        "pca_1": "Principal Component 1",
+        "pca_2": "Principal Component 2",
+        "segment_name": "Customer Segment"
+    },
+    title="Customer Segments — PCA Visualization"
+)
+
+
+st.plotly_chart(
+    pca_chart,
+    use_container_width=True
+)
+
 
 # --------------------------------------------------
 # 16. Summary information

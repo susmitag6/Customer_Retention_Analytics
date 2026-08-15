@@ -15,7 +15,7 @@ The project:
 3. Trains a machine learning model to predict churn.
 4. Compares Logistic Regression and Random Forest.
 5. Optimizes the churn classification threshold.
-6. Groups customers using K-Means clustering.
+6. Groups customers using K-Means clustering and PCA for cluster visualization in 2D
 7. Combines churn probability with Customer Lifetime Value (CLTV).
 8. Creates a retention priority score.
 9. Displays the results in a Streamlit dashboard.
@@ -60,13 +60,13 @@ Churn Prediction
       |
       +---- Logistic Regression
       |
-      +---- Random Forest
+      +---- Random Forest (Further accuracy can be improved)
       |
       v
 Threshold Optimization
       |
       v
-Customer Segmentation (K-Means)
+Customer Segmentation + principal comp. (K-Means + PCA)
       |
       v
 Churn Probability + CLTV
@@ -186,6 +186,7 @@ The Streamlit dashboard includes:
 - churn risk by segment
 - CLTV vs. churn probability
 - top retention opportunities
+- PCA visulization for K-Means customer segments
 - filters for risk, segment, priority, and contract type
 
 ## Project structure
